@@ -1,0 +1,14 @@
+@startuml
+package es.etg.correo.ejercicio.controlador{
+     component CorreoController <<java>>
+}
+
+package es.etg.correo.ejercicio.modelo{
+    component Producto <<java>>
+}
+
+package es.etg.correo.ejercicio.vista{
+    component formularioView <<FXML file>>
+    component FormularioViewController <<java>>
+}
+@enduml
